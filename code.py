@@ -8,7 +8,7 @@ from email import encoders
 from datetime import datetime
  
 EMAIL = 'johnjw2007@gmail.com'  # Your email
-PASSWORD = 'sowe ocmn qtjr jsmt'  # Your email password
+PASSWORD = '**** **** **** ****'  # Your email password
 TO_EMAIL = 'kumaravelkuma07@gmail.com'  # Recipient's email
 SMTP_SERVER = 'smtp.gmail.com'  # For Gmail
 SMTP_PORT = 587  # For Gmail
